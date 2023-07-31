@@ -41,7 +41,7 @@ echo
 echo "# Looking up the latest release for your environment"
 echo
 
-RELEASE_URL=`curl -sfL "https://api.github.com/repos/skupperproject/skupper/releases/95202132" \
+RELEASE_URL=`curl -sfL "https://api.github.com/repos/skupperproject/skupper/releases/109359917" \
              | grep browser_download_url \
              | cut -d '"' -f 4 \
              | grep "${OPERATING_SYSTEM}-${ARCHITECTURE}"`
